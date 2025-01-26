@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebAR Perabot</title>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@google/model-viewer@2.1.0"></script>
+  </head>
+  <body>
+    <h1>WebAR Perabot Toko</h1>
+
+    <!-- Model 3D -->
+    <model-viewer
+      src="https://github.com/fura2404/test.glb/raw/main/test.glb"
+      alt="Perabot Toko"
+      ar
+      ar-modes="webxr scene-viewer quick-look"
+      camera-controls>
+    </model-viewer>
+
+    <!-- Menghubungkan file script.js -->
+    <script src="script.js"></script>
+  </body>
+</html>
